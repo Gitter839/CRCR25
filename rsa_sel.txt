@@ -1,0 +1,27 @@
+-Se hai p,q -> Sei apposto calcola d e hai fatto
+
+-Se hai piu N e gcd(Ni, Nj) > 1 -> COMMON PRIME
+ (STRANGE RSA ATTACK 20 PRIME 10 MOD)
+
+-Se N è piccolo (120 bit circa) -> FactorDB
+
+-Se p e q sono vicini tra loro -> Factor DB, Se danno un numero n lungo lungo
+quindi in pratica FactorDB non serve o usi Fermat (tentativo) o GNFS (Yafu)
+Non puoi vedere direttamente se p e q sono vicini non ha senso se hai
+p e q RSA è rotto 
+
+-2 ciphertext con stesso N -> COMMON MODULUS E e1,e2 -> gcd(e1,e2)
+
+-Se e = 3 o 5 -> LOW PUBLIC EXPONENT 
+
+-Stesso Messaggio Inviato "e" volte tutti con "e" uguale e N diversi -> 
+HADSTAT BROADCAST
+
+-LSB ORACLE SE C'E' un oracle che leak 1 bit of plaintext
+
+-GNFS(YAFU) N up to 829 bit 
+
+-if "e" is BIG noi sappiamo che d = e^-1 mod (n) -> quindi d è
+piccolo -> LOW PRIVATE EXPONENT (WEINER O BONEH.DUREE)
+
+

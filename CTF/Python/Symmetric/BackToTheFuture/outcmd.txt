@@ -1,0 +1,5 @@
+Delta=16570000 -> You have expired!
+Delta=16580000 -> You have expired!
+Delta=16590000 -> OK! Your flag: CRYPTO25{90c01f7e-8cb7-408b-82b4-07e8e7c72d12}
+[*] Flag trovata!
+OK! Your flag: CRYPTO25{90c01f7e-8cb7-408b-82b4-07e8e7c72d12}
